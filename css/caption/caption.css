@@ -1,9 +1,10 @@
 .caption{
     position: absolute;
-    left: 28%;
-    top: 487px;
+    left: 50%;
+    top: 270px;
     text-align: center;
     width: 800px;
+    margin-left: -400px;
 
 }
 
@@ -14,13 +15,28 @@
     text-align: center;
     color: #fff;
 }
+
 .caption__content{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
     color: #fff;
+    margin-bottom: 100px;
+}
+
+.caption__lines{
+    position: absolute;
+    top: 580px;
+    width: 449px;
+    margin-left: 175px;
+    z-index: 1;
     margin-bottom: 30px;
+}
+
+.caption__button{
+    position: relative;
+    z-index: 2;
 }
 
 .caption__button a{
@@ -36,4 +52,9 @@
     padding: 10px 25px;
     border-radius: 23px;
     text-decoration: none;
+}
+
+.caption__play{
+    position: relative;
+    top: 330px;
 }
