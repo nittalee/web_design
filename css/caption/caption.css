@@ -1,0 +1,39 @@
+.caption{
+    position: absolute;
+    left: 28%;
+    top: 487px;
+    text-align: center;
+    width: 800px;
+
+}
+
+.caption h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+.caption__content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.caption__button a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    width: 163px;
+    height: 46px;
+    background-color: #da7074;
+    padding: 10px 25px;
+    border-radius: 23px;
+    text-decoration: none;
+}

@@ -1,0 +1,69 @@
+#page-header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.page-header__navbar{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.page-header__navbar li{
+    display: inline;
+}
+
+.page-header__navbar a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 25px 25px;
+    display: inline-block;
+}
+
+.page-header__logo{
+    position: relative;
+    top: 75px;
+    left: 0px;
+}
+
+.page-header__menu{
+    position: relative;
+    float: right;
+    top: -40px;
+    list-style-type: none;
+}
+
+.page-header__menu li{
+    display: inline;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.page-header__menu a {
+    position: relative;
+    top: 5px;
+
+}
+
+.page-header__line{
+    position: relative;
+    left: 0px;
+    top: 35px;
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.24;
+
+}
