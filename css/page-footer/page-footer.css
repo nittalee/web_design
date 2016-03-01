@@ -1,0 +1,82 @@
+#page-footer{
+    position: absolute;
+    top: 1915px;
+    width: 100%;
+    vertical-align: top;
+    padding: 0;
+    border: 0;
+}
+
+.page-footer__list{
+    text-align: left;
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 178px;
+    overflow:hidden;
+    display:inline-block;
+    margin-bottom: 120px;
+}
+
+.page-footer__list ul{
+    margin: 0;
+    padding: 0;
+}
+
+.page-footer__list h4{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: #151515;
+    margin-bottom: 44px;
+}
+
+.page-footer__list li{
+    position: relative;
+    margin-top: 0px;
+    font-family: 'Georgia', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    text-align: left;
+    color: #575757;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.page-footer__list a{
+  text-decoration: none;
+  color: #575757;
+}
+
+.page-footer__list p{
+    position: relative;
+    margin-top: 0px;
+    font-family: 'Georgia', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    text-align: left;
+    color: #575757;
+    margin-bottom: 10px;
+}
+
+.page-footer__line{
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-footer__line p{
+    font-family: 'Georgia', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.2);
+    background-color: #151515;
+    text-decoration: none;
+    padding: 18px 0px 18px 0px;
+  }

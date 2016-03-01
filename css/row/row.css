@@ -1,0 +1,47 @@
+.row{
+    position: absolute;
+    top: 1320px;
+    height: 500px;
+    width: 100%;
+    vertical-align: top;
+    margin-bottom: 95px;
+    padding: 0;
+    border: 0;
+    background-position: center center;
+}
+
+.row__thumb{
+    position: relative;
+    float: left;
+    width: 25%;
+    overflow:hidden
+}
+
+.row__thumb-text{
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    width: 300px;
+    text-align: center;
+    margin-left: -150px;
+}
+
+.row__thumb-text h2{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.row__thumb-text p{
+    position: relative;
+    margin-top: -10px;
+    font-family: 'Georgia', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+}
