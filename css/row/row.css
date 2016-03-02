@@ -8,6 +8,7 @@
     padding: 0;
     border: 0;
     background-position: center center;
+    background-color: #000;
 }
 
 .row__thumb{
@@ -17,6 +18,9 @@
     overflow:hidden
 }
 
+.row__thumb img{
+    opacity: 0.8;
+}
 .row__thumb-text{
     position: absolute;
     top: 350px;
