@@ -1,6 +1,6 @@
 #page-footer{
     position: absolute;
-    top: 1915px;
+    top: 1872px;
     width: 100%;
     vertical-align: top;
     border: 0;
@@ -8,15 +8,16 @@
 
 .page-footer__nav{
     position: relative;
-    padding-left: 12.5%;
+    padding-left: 10.6%;
+    padding-right: 10.6%;
 }
 
 .page-footer__nav-list{
     text-align: left;
     position: relative;
     float: left;
-    width: 18.75%;
-    height: 178px;
+    width: 25%;
+    height: 200px;
     overflow:hidden;
     display:inline-block;
     margin-bottom: 120px;
@@ -35,11 +36,12 @@
     font-weight: 700;
     text-align: left;
     color: #151515;
-    margin-bottom: 44px;
+    margin-bottom: 35px;
 }
 
 .page-footer__nav-list li{
     position: relative;
+    line-height: 17px;
     margin-top: 0px;
     font-family: 'Georgia', sans-serif;
     font-style: italic;
@@ -68,7 +70,7 @@
 
 .page-footer__line{
     position: absolute;
-    top: 280px;
+    top: 300px;
     width: 100%;
     text-align: center;
 }
@@ -81,5 +83,5 @@
     color: rgba(255, 255, 255, 0.2);
     background-color: #151515;
     text-decoration: none;
-    padding: 18px 0px 18px 0px;
+    padding: 21px 0px 21px 0px;
   }

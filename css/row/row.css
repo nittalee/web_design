@@ -1,6 +1,6 @@
 .row{
     position: absolute;
-    top: 1320px;
+    top: 1300px;
     height: 500px;
     width: 100%;
     vertical-align: top;
@@ -23,7 +23,7 @@
 }
 .row__thumb-text{
     position: absolute;
-    top: 350px;
+    top: 327px;
     left: 50%;
     width: 300px;
     text-align: center;
@@ -34,14 +34,16 @@
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
     text-align: center;
     color: #fff;
 }
 
 .row__thumb-text p{
     position: relative;
-    margin-top: -10px;
+    margin-top: -7px;
     font-family: 'Georgia', sans-serif;
     font-style: italic;
     font-size: 18px;

@@ -1,7 +1,7 @@
 .caption{
     position: absolute;
     left: 50%;
-    top: 270px;
+    top: 320px;
     text-align: center;
     width: 800px;
     margin-left: -400px;
@@ -12,22 +12,27 @@
     font-family: 'Playfair Display', serif;
     font-size: 140px;
     font-weight: 400;
+    letter-spacing: -1px;
     text-align: center;
     color: #fff;
+    margin-bottom: 10px;
 }
 
 .caption__content{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'montserratlight', sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
     text-align: center;
     color: #fff;
     margin-bottom: 100px;
+    margin-top: -19px;
+    line-height: 36px;
 }
 
 .caption__lines{
     position: absolute;
-    top: 580px;
+    top: 500px;
     width: 449px;
     margin-left: 175px;
     z-index: 1;
@@ -45,11 +50,12 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 2px;
     color: #fff;
     width: 163px;
     height: 46px;
     background-color: #da7074;
-    padding: 10px 25px;
+    padding: 14px 44px;
     border-radius: 23px;
     text-decoration: none;
 }
