@@ -1,8 +1,18 @@
-language: ruby
-rvm:
- - "1.8.7"
- - "1.9.2"
- - "1.9.3"
- - rbx
-# uncomment this line if your project needs to run something other than `rake`:
-# script: bundle exec rspec spec
+language: python
+python:
+ - "2.7"
+
+branches:
+  only:
+    - gh-pages
+
+# install Java 8 as required by vnu.jar
+before_install:
+ - sudo apt-get update
+ - sudo apt-get install oracle-java8-installer
+ - sudo update-java-alternatives -s java-8-oracle
+
+install:
+ - pip install html5validator
+
+script: html5validator --root .
